@@ -17,7 +17,7 @@ function NewArrivals() {
                         </h2>
                      </div>
                    <p style={{ marginTop: "20px", marginBottom: "30px" }}>
-                        Vitae fugiat laboriosam officia perferendis provident aliquid voluptatibus dolorem, fugit ullam sit earum id eaque nisi hic? Tenetur commodi, nisi rem vel, ea eaque ab ipsa, autem similique ex unde!
+                        Jonedoe fugiat laboriosam officia perferendis provident aliquid voluptatibus dolorem, fugit ullam sit earum id eaque nisi hic? Tenetur commodi, nisi rem vel, ea eaque ab ipsa, autem similique ex unde!
                      </p>
                      <a href="">
                      Shop Now

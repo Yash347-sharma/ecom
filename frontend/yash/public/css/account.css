@@ -1,0 +1,91 @@
+/* Page background */
+.account-page {
+  min-height: 100vh;
+  background: #ffffff; /* White background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Common card style */
+.account-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 8px 20px rgba(255, 9, 9, 0.934); /* Red shadow */
+  transition: all 0.3s ease;
+}
+
+.account-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(240, 21, 21, 0.968); /* Red shadow on hover */
+}
+
+/* Heading */
+.account-card h3 {
+  font-weight: 600;
+  color: #e01212; /* Red color */
+  margin-bottom: 20px;
+}
+
+/* Form inputs */
+.account-card .form-control {
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  padding: 12px;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+.account-card .form-control:focus {
+  border-color: #ff6600; /* Orange border on focus */
+  box-shadow: 0 0 0 0.2rem rgba(255, 102, 0, 0.25); /* Orange shadow on focus */
+}
+
+/* Toggle buttons */
+.toggle-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.toggle-buttons .btn {
+  flex: 1;
+  margin: 0 5px;
+  border-radius: 30px;
+  transition: 0.3s ease;
+}
+
+.toggle-buttons .btn-primary {
+  background: #f13d3d; /* Red background */
+  border: none;
+  color: white;
+}
+
+.toggle-buttons .btn-outline-primary {
+  background: transparent;
+  border: 1px solid #db4024; /* Red border */
+  color: #da4921; /* Red text */
+}
+
+.toggle-buttons .btn-outline-primary:hover {
+  background: #ef4b1e; /* Red background on hover */
+  color: #fff;
+}
+
+/* Submit Buttons (Login & Register) */
+.btn-orange, .btn-primary, .btn-success {
+  background-color: #ff6600; /* Orange background */
+  border: none !important;
+  color: #fff; 
+  font-weight: 500;
+  border-radius: 8px;
+  padding: 10px 15px;
+  width: 100%;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+
+.btn-orange:hover, .btn-primary:hover, .btn-success:hover {
+  background-color: #e65c00 !important; /* Darker orange on hover */
+}
